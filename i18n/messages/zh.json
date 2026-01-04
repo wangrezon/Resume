@@ -1,5 +1,62 @@
 {
-  "hello": {
-    "world": "你好世界"
-  }
+  "Hero": {
+    "name": "Rozen",
+    "role": "Javascript 全栈开发工程师",
+    "mode": "远程办公",
+    "contact": "联系方式"
+  },
+  "Sections": {
+    "skills": "核心技能栈",
+    "experience": "工作经历",
+    "apps": "项目展示",
+    "comingSoon": "敬请期待"
+  },
+  "Experience": [
+    {
+      "period": "2025.2-至今",
+      "company": "数字游民",
+      "description": "聚焦 AI Agent 和 Web3 领域技术研发，深耕相关场景解决方案"
+    },
+    {
+      "period": "2024.7-2025.2",
+      "company": "ViveFrance",
+      "description": "负责法国租房平台\"Vivefrance\"全栈开发，独立完成网站及后台核心功能搭建，保障平台稳定上线与高效运转"
+    },
+    {
+      "period": "2021.9-2024.7",
+      "company": "Waysia (ex Alorsfaim)",
+      "description": "主导法国外卖平台 Web Client2.0 从 0 到 1 落地，完成性能优化、SEO 及 PWA 部署，搭建 WMS 后台系统、商品管理系统架构并推进业务开发，同时负责旧业务模块的维护与迭代，保障平台流畅运行"
+    },
+    {
+      "period": "2020.5-2021.9",
+      "company": "字节跳动",
+      "description": "主导搭建内容通用中台并负责稀土掘金核心业务迭代，通过技术优化和数据体系建设推动产品正向增长。"
+    },
+    {
+      "period": "2018.4-2020.5",
+      "company": "奇虎 360",
+      "description": "负责企业级 IM 产品 UI 升级与核心模块维护，并主导多款智能硬件前端开发，解决跨端适配与性能优化难题。"
+    },
+    {
+      "period": "2016.10-2017.11",
+      "company": "北京指掌易科技有限公司",
+      "description": "参与设备管理平台与移动安全办公套件开发重构，实现多语言、可视化大屏等核心功能并优化组件库性能。"
+    }
+  ],
+  "Skills": [
+    "TypeScript",
+    "JavaScript",
+    "Python",
+    "React.js",
+    "React Native",
+    "Next.js",
+    "Node.js",
+    "REST APIs",
+    "PostgreSQL",
+    "LangChain",
+    "Solidity",
+    "Ethers.js",
+    "wagmi",
+    "viem"
+  ]
 }

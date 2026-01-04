@@ -1,5 +1,62 @@
 {
-  "hello": {
-    "world": "Hello World"
-  }
+  "Hero": {
+    "name": "Rozen",
+    "role": "Javascript Full-Stack Developer",
+    "mode": "Remote",
+    "contact": "Contact"
+  },
+  "Sections": {
+    "skills": "Core Skills",
+    "experience": "Work Experience",
+    "apps": "App Shows",
+    "comingSoon": "Coming Soon"
+  },
+  "Experience": [
+    {
+      "period": "2025.2-Present",
+      "company": "Digital Nomad",
+      "description": "Focused on AI Agent and Web3 technology R&D, deeply engaged in related scenario solutions"
+    },
+    {
+      "period": "2024.7-2025.2",
+      "company": "ViveFrance",
+      "description": "Responsible for full-stack development of the French rental platform 'Vivefrance', independently completed website and backend core functionality, ensuring stable launch and efficient operation"
+    },
+    {
+      "period": "2021.9-2024.7",
+      "company": "Waysia (ex Alorsfaim)",
+      "description": "Led the Web Client 2.0 project from 0 to 1 for the French food delivery platform, completed performance optimization, SEO and PWA deployment, built WMS backend system and product management system architecture, promoted business development, while maintaining and iterating on legacy business modules to ensure smooth platform operation"
+    },
+    {
+      "period": "2020.5-2021.9",
+      "company": "ByteDance",
+      "description": "Led the development of a universal content platform and iterated on core features for Juejin, driving product growth through data-driven optimizations."
+    },
+    {
+      "period": "2018.4-2020.5",
+      "company": "Qihoo 360",
+      "description": "Headed UI upgrades for enterprise IM products and led frontend development for various smart hardware, focusing on cross-platform optimization and user experience."
+    },
+    {
+      "period": "2016.10-2017.11",
+      "company": "Beijing Zhizhangyi Tech",
+      "description": "Developed and refactored device management platforms and secure office suites, implementing multi-language support and high-performance component libraries."
+    }
+  ],
+  "Skills": [
+    "TypeScript",
+    "JavaScript",
+    "Python",
+    "React.js",
+    "React Native",
+    "Next.js",
+    "Node.js",
+    "REST APIs",
+    "PostgreSQL",
+    "LangChain",
+    "Solidity",
+    "Ethers.js",
+    "wagmi",
+    "viem"
+  ]
 }
