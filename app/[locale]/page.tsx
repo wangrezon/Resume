@@ -13,7 +13,7 @@ export default async function Home() {
       className="h-screen w-full overflow-y-auto overflow-x-hidden snap-y snap-mandatory bg-[#F8FAFC] text-slate-900 transition-colors duration-300 dark:bg-slate-950 dark:text-slate-50 selection:bg-purple-200 selection:text-purple-900"
     >
       {/* Navigation */}
-      <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[198px] py-3 clay-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex justify-center items-center gap-6 shadow-xl">
+      <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 min-w-[198px] px-4 py-3 clay-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex justify-center items-center shadow-xl">
         <div className="flex items-center gap-2 pr-4 border-r border-slate-200 dark:border-slate-800 shrink-0">
           <Image
             src="/avatar.webp"
@@ -26,7 +26,7 @@ export default async function Home() {
             Rozen
           </span>
         </div>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center pl-2 gap-4">
           <IntlToggle />
           <ThemeToggle />
         </div>
