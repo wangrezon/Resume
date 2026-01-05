@@ -58,7 +58,7 @@ export const Hero = () => {
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.4 }}
-        className="flex flex-col items-center gap-6 w-full"
+        className="flex flex-col items-center gap-6 w-full relative z-10"
       >
         <a
           href="mailto:wangrozen@outlook.com"
@@ -66,9 +66,9 @@ export const Hero = () => {
           title="Email"
         >
           <div className="clay-button p-3 text-white bg-rose-500 group-hover:rotate-12 transition-transform shadow-lg">
-            <Mail size={24} />
+            <Mail size={18} />
           </div>
-          <span className="font-sans font-black text-xl text-slate-800 dark:text-slate-100 tracking-tight">
+          <span className="font-sans font-black text-md text-slate-800 dark:text-slate-100 tracking-tight">
             wangrozen@outlook.com
           </span>
         </a>
